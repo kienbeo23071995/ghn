@@ -1,0 +1,30 @@
+{
+    "development": {
+        "username": "postgres",
+        "password": 123,
+        "database": "shopeedb",
+        "host": "localhost",
+        "dialect": "postgres",
+        "dialectOptions": {
+            "ssl": false
+        }
+    },
+    "test": {
+        "username": "postgres",
+        "password": 123,
+        "database": "shopeedb",
+        "host": "localhost",
+        "dialect": "postgres",
+        "operatorsAliases": false
+    },
+    "production": {
+        "username": "auztjiucwhtijy",
+        "password": "caa6795ae648ecc7841ef2a82b39e189edb988380a013f99c3f736eda6ac351b",
+        "database": "desjqdlmkj35ad",
+        "host": "ec2-54-225-214-37.compute-1.amazonaws.com",
+        "dialect": "postgres",
+        "dialectOptions": {
+            "ssl": false
+        }
+    }
+}
